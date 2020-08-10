@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/text_white"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="26sp"
+        android:letterSpacing="1.2"
+        android:text="PDA"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/icon_my_profile"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/test_girl"/>
+
+    <TextView android:id="@+id/txt_driver_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/text_white"
+        android:textSize="16sp"
+        tools:text="Ben Zakh"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/base_margin"
+        android:layout_marginBottom="@dimen/base_margin"
+        android:background="@color/text_white" />
+
+</LinearLayout>

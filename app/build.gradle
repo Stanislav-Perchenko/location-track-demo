@@ -68,4 +68,6 @@ dependencies {
 
     implementation "com.google.android.gms:play-services-location:${rootProject.playServicesAndFirebaseVersion}"
 
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+
 }

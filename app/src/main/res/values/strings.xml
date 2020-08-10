@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">LocationTrackDemo</string>
 
+    <string name="screen_title_main"></string>
+    <string name="screen_title_settings">Settings</string>
+    <string name="screen_title_play_serv_location">Play services location</string>
+
+    <string name="action_logout">Logout</string>
 
     <string name="err_location_settings_unresolvable">Location settings are inadequate, and cannot be fixed here. Fix in Settings.</string>
 </resources>
