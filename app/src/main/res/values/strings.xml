@@ -7,5 +7,7 @@
 
     <string name="action_logout">Logout</string>
 
+    <string name="setting_property_use_location_tracking">Use Location tracking in the application</string>
+
     <string name="err_location_settings_unresolvable">Location settings are inadequate, and cannot be fixed here. Fix in Settings.</string>
 </resources>

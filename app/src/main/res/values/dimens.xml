@@ -6,4 +6,8 @@
 
     <dimen name="base_margin">12dp</dimen>
     <dimen name="base_margin_half">6dp</dimen>
+
+    <dimen name="nav_bar_fallback_height">48dp</dimen>
+    <dimen name="stat_bar_fallback_height">25dp</dimen>
+    <dimen name="action_bar_fallback_height">52dp</dimen>
 </resources>
