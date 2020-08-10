@@ -10,4 +10,7 @@
     <string name="setting_property_use_location_tracking">Use Location tracking in the application</string>
 
     <string name="err_location_settings_unresolvable">Location settings are inadequate, and cannot be fixed here. Fix in Settings.</string>
+
+    <string name="msg_location_permission_not_granted">Location permission was not granted</string>
+    <string name="location_permission_rationale">Location permission is needed for tracking target shops approaching</string>
 </resources>

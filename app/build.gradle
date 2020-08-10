@@ -66,6 +66,11 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-extensions:$rootProject.archLifecycleVersion"
     kapt "androidx.lifecycle:lifecycle-compiler:$rootProject.archLifecycleVersion"
 
+    //AutoValue
+    compileOnly "com.google.auto.value:auto-value-annotations:1.6.2"
+    kapt "com.google.auto.value:auto-value:1.6.2"
+    kapt 'com.ryanharter.auto.value:auto-value-parcel:0.2.6'
+
     implementation "com.google.android.gms:play-services-location:${rootProject.playServicesAndFirebaseVersion}"
 
     implementation 'de.hdodenhof:circleimageview:2.1.0'

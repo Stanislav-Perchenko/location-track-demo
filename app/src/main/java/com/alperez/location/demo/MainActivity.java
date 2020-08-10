@@ -1,5 +1,6 @@
 package com.alperez.location.demo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -11,6 +12,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import com.alperez.location.demo.settings.SettingsActivity;
 import com.google.android.material.navigation.NavigationView;
 
 /**
@@ -34,8 +36,7 @@ public class MainActivity extends AppCompatActivity {
             final int id = menuItem.getItemId();
             switch (id) {
                 case R.id.menu_item_settings:
-                    //TODO Implement Settings activity
-                    //startActivity(new Intent(this, SettingsActivity.class));
+                    startActivity(new Intent(this, SettingsActivity.class));
                     break;
                 case R.id.menu_item_location_test:
                     //TODO Implement Location test activity

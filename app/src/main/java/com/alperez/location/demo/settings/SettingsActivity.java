@@ -1,4 +1,4 @@
-package com.alperez.location.demo;
+package com.alperez.location.demo.settings;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -11,8 +11,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 
+import com.alperez.location.demo.R;
 import com.alperez.location.demo.base.BaseToolbarActivity;
 import com.alperez.location.demo.base.Layout;
+import com.alperez.utils.Toaster;
 import com.google.android.material.snackbar.Snackbar;
 
 /**
