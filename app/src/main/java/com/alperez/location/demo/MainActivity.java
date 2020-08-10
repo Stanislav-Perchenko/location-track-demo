@@ -39,8 +39,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(this, SettingsActivity.class));
                     break;
                 case R.id.menu_item_location_test:
-                    //TODO Implement Location test activity
-                    //startActivity(new Intent(this, LocationTestActivity.class));
+                    startActivity(new Intent(this, LocationTestActivity.class));
                     break;
                 case R.id.menu_item_logout:
                     finish();

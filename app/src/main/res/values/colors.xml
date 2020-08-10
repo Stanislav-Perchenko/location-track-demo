@@ -16,4 +16,10 @@
     <color name="text_almost_white">#F1F1F1</color>
     <color name="text_white">#FFFFFF</color>
     <color name="text_link">#0000EA</color>
+
+    <color name="app_color_green">#7DC44D</color>
+    <color name="app_color_red">#F4595A</color>
+    <color name="app_color_yellow">#EFCD4F</color>
+    <color name="app_color_orange">#F2994A</color>
+    <color name="app_color_light_gray">#DFDEE2</color>
 </resources>
